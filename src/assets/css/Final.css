@@ -1,0 +1,160 @@
+.central-text{
+    position: absolute;
+    width: 382px;
+    height: 32px;
+    top: 205px;
+    left: 529px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Gilroy-Bold;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32.19px;
+    text-align: center;
+    
+    
+
+}
+.robot-creation{
+    width: 159.24px;
+    height: 182.64px;
+    top: 50.21px;
+    left: 52.93px;
+    gap: 0px;
+    opacity: 0px;
+    
+    
+}
+.robot-face {
+    position: absolute;
+    width: 188.38px;
+    height: 107.95px;
+    top: 60.21px;
+    left: 67.31px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #F0F0F0;
+    border-radius: 20% 20% 50% 50%; 
+    transform: rotate(180deg);
+    z-index: 3 !important;
+  }
+.ear{
+    z-index: 1 !important;
+    position: absolute;
+    width: 43.32px;
+    height: 18.23px;
+    top: 29.63px;
+    left: 174.85px;
+    gap: 0px;
+    border-radius: 0% 0% 50% 50%; 
+    opacity: 0px;
+    background: #F6C7C5;
+    transform: rotate(-90deg);
+    
+}
+.ear2{
+    position: absolute;
+    left: -30px;
+    transform: rotate(90deg);
+}
+.robot-mask{
+    position: absolute;
+    width: 138.61px;
+    height: 40.55px;
+    top: 106.92px;
+    left: 89.58px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+    background: #2B2A35;
+    z-index: 5;
+
+}
+.robot-eye{
+    position: absolute;
+    width: 7.86px;
+    height: 22.56px;
+    top: 8.92px;
+    left: 30.14px;
+    gap: 0px;
+    opacity: 0px;
+    z-index: 8;
+    background: white;
+    border-radius: 10px;
+}
+.eye2{
+    position: absolute;
+    left: 104.14px;
+}
+.robot-body-circle{
+    position: absolute;
+    width: 86.22px;
+    height: 25.31px;
+    top: -2.25px;
+    left: 10.94px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F6C7C5;
+    border-radius: 50%;
+}
+.robot-body{
+    position: absolute;
+    width: 106.22px;
+    height: 105.31px;
+    top: 190.25px;
+    left: 104.94px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F0F0F0;
+    border-radius: 20% 20% 50% 50%;
+}
+.circle2{
+    position: absolute;
+    top: 320px;
+    left: 114px;
+}
+.image-robot-body{
+    position: absolute;
+    top: 38px;
+    left:45px;
+    z-index: 8;
+
+}
+.text-below-robot{
+    position: absolute;
+    width: 1036px;
+    height: 70px;
+    top: 582px;
+    left: 205px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.text-below-robot1{
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: center;
+    
+    
+color: gray;
+}
+.text-below-robot2{
+    color: gray;
+}
+.text-below-robot21{
+    color: black;
+}
+.text-bottom-robot1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: center;
+    color: gray;
+    position: absolute;
+}

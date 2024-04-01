@@ -1,0 +1,159 @@
+.enter-otp-text {
+    position: absolute;
+    width: 202px;
+    height: 53px;
+    top: 206px;
+    left: 610px;
+    font-family: Gilroy-ExtraBold;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 52.5px;
+    text-align: center;
+  }
+  
+  .email-text1{
+    color: gray;
+    position: absolute;
+    width: 802px;
+    height: 53px;
+    top: 260px;
+    left: 310px;
+    font-family: Gilroy-Medium;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 52.5px;
+    text-align: center;
+  }
+  .dynamic-email{
+    color: black;
+    font-weight: 900;
+  }
+  .pen-icon {
+    margin-left: 5px; 
+    color: #ff4500; 
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .pen-icon:hover{
+    color: #007bff;
+  }
+  .edit-email-input {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px;
+    color: #333;
+    outline: none; 
+}
+
+.edit-email-input:focus {
+    border-color: #007bff; 
+}
+
+.edit-email-input::placeholder {
+    color: #999;
+}
+
+.edit-email-input:hover {
+    border-color: #666; 
+}
+
+.edit-email-input:disabled {
+    background-color: #f8f9fa; 
+    color: #ccc;
+}
+.save-edit-button,
+.cancel-edit-button {
+    margin-left:30px;
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #000; 
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff4500;
+    transition: background-color 0.3s ease; 
+}
+.save-edit-button{
+    position: absolute;
+    left: 0px;
+    top: 70px;
+}
+.cancel-edit-button{
+    position: absolute;
+    left: 600px;
+    top: 70px;
+}
+
+.save-edit-button:hover,
+.cancel-edit-button:hover {
+    background-color: #ff6347; 
+}
+
+.save-edit-button:active,
+.cancel-edit-button:active {
+    background-color: #cc3700; 
+}
+.otp-inputs-container {
+    position: absolute;
+    top: 444px;
+    left: 871px;
+  }
+  
+  .otp-input {
+    width: 56px;
+    height: 58px;
+    margin-right: 10px;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .otp-input:first-child{
+    position: absolute;
+    top: 320px;
+    left: 560px;
+  }
+  .otp-input:nth-child(2){
+    position: absolute;
+    top: 320px;
+    left: 640px;
+  }
+  .otp-input:nth-child(3){
+    position: absolute;
+    top: 320px;
+    left: 720px;
+  }
+
+  .otp-input:last-child {
+    position: absolute;
+    top: 320px;
+    left: 800px;
+    margin-right: 0;
+  }
+  .resend-link {
+    position: absolute;
+    width: 55px;
+    height: 20px;
+    top: 417px;
+    left: 673px;
+    gap: 0px;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.resend-text {
+    color: #ffffff; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #FD4B43; 
+    border-radius: 3px; 
+}
+
+  
+

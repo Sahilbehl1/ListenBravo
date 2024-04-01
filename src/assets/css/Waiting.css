@@ -1,0 +1,105 @@
+.waiting-container {
+  background: #2B2A35;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin-left: -8px;
+  margin-top: -8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.waiting-text {
+  position: absolute;
+  top: 250px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.dots-container {
+  position: absolute;
+  top: 255px;
+  left:1020px;
+  font-size: 45px;
+  font-weight: 900;
+  display: flex;
+}
+
+.dot {
+  animation: dotAnimation 1.5s infinite;
+}
+
+@keyframes dotAnimation {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.dot1 {
+  margin-right: 5px;
+}
+
+.dot2 {
+  margin: 0 5px;
+}
+
+.dot3 {
+  margin-left: 5px;
+}
+.rectangles-container1 {
+  position: absolute;
+  width: 87px;
+  height: 100px;
+  top: 350px ;
+  left: 677px;
+  transform: rotate(-180deg);
+  overflow: hidden; 
+}
+
+.mask1 {
+  position: absolute;
+  width: 100px;
+  height: 400px !important;
+ background-color: #2B2A35;
+  top: 0px;
+  left: 0;
+  z-index: 3;
+  pointer-events: none;
+  left: 45px;
+}
+
+
+
+.rectangle1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 2px;
+  transform: rotate(-135deg);
+}
+
+.red1 {
+  top: 4px;
+  left: 11.72px;
+  background-color: black;
+  background: linear-gradient(136.95deg, #FE5823 10.01%, #FF0E06 87.88%);
+  border: 2px solid linear-gradient(135deg, #FE5823 100%, #FF0E06 100%);
+  z-index: 2;
+}
+
+.orange1 {
+  top: 32px;
+  left: 11.72px;
+  background: linear-gradient(233.13deg, #FF5422 31.63%, #FF0703 88.45%);
+
+}
